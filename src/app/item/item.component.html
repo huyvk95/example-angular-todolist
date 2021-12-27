@@ -1,0 +1,5 @@
+<div>
+  <input type="checkbox" [checked]="todo?.check" (change)="onChange($event)" />
+  <p>{{ todo?.content }}</p>
+  <button (click)="onRemove()">×</button>
+</div>

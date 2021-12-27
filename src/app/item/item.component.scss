@@ -1,0 +1,25 @@
+:host {
+  div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  p {
+    margin-right: auto;
+    word-wrap: break-word; /* IE 5.5-7 */
+    white-space: pre-wrap; /* current browsers */
+  }
+
+  button {
+    cursor: pointer;
+    border: gray;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+}
